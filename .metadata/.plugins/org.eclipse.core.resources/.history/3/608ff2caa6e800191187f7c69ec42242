@@ -1,0 +1,26 @@
+package hello;
+
+public class HelloProgram {
+	public static void main(String[] args){
+		System.out.println("Hello");
+		System.out.println(5*4);
+		Onigiri ume, okaka, syake;
+		ume = new Onigiri("UME");
+		okaka = new Onigiri("OKAKA");
+		syake = new Onigiri("SYAKE");
+		ume.printGu(); 
+		okaka.printGu();
+		syake.printGu();
+	}
+}
+class Onigiri {
+	String gu;
+	Onigiri(String g){ //constructor
+		gu = g;
+	}
+	void printGu(){
+		System.out.println("Gu = "+gu);
+	}
+}
+
+

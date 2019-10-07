@@ -1,0 +1,32 @@
+package hello; // static: 静的   <=> dynamic: 動的
+
+public class HelloProgram {
+	public static void main(String[] args){
+		System.out.println("Hello");
+		System.out.println(5*4);
+		Onigiri ume, okaka, syake;
+		ume = new Onigiri("UME");
+		okaka = new Onigiri("OKAKA");
+		syake = new Onigiri("SYAKE");
+		ume.printGu();    ume.hasNori = true;
+		okaka.printGu();  okaka.setNori(true);
+		syake.printGu();
+	}
+}
+class Onigiri {
+	static int count = 0; // 生成したおにぎりの数をカウントする変数
+	String gu;
+	boolean hasNori;
+	Onigiri(String g){ //constructor コンストラクタ
+		gu = g;
+		count++;
+	}
+	void setNori(boolean n){
+		hasNori = n;
+	}
+	void printGu(){
+		System.out.println("Gu = "+gu);
+	}
+}
+
+
