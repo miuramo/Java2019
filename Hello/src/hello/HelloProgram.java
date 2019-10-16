@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 // import java.util.ArrayList;
 
-public class HelloProg {
+public class HelloProgram {
 	public static void main(String[] args){
 		System.out.println(args.length);
 		for(int k=0; k< args.length; k++){
