@@ -54,3 +54,179 @@ Java Model Exception: Java Model Status [String {key=Ljava/lang/String;} [in Str
 	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
 !SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-10-07 09:49:28.142
 !MESSAGE String {key=Ljava/lang/String;} [in String.class [in java.lang [in /usr/lib/jvm/java-1.6.0-openjdk-1.6.0.41.x86_64/jre/lib/rt.jar]]] に対しては不明な javadoc フォーマットです
+!SESSION 2019-10-16 09:11:25.506 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.6.0_41
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=ja_JP
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-10-16 10:11:56.770
+!MESSAGE 内部エラー
+!STACK 1
+Java Model Exception: Java Model Status [BufferedImage [in BufferedImage.class [in java.awt.image [in /usr/lib/jvm/java-1.6.0-openjdk-1.6.0.41.x86_64/jre/lib/rt.jar]]] に対しては不明な javadoc フォーマットです]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:78)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:470)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:450)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:96)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:76)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:59)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-10-16 10:11:56.772
+!MESSAGE BufferedImage [in BufferedImage.class [in java.awt.image [in /usr/lib/jvm/java-1.6.0-openjdk-1.6.0.41.x86_64/jre/lib/rt.jar]]] に対しては不明な javadoc フォーマットです
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-10-16 10:11:58.198
+!MESSAGE 内部エラー
+!STACK 1
+Java Model Exception: Java Model Status [BufferedImageFilter [in BufferedImageFilter.class [in java.awt.image [in /usr/lib/jvm/java-1.6.0-openjdk-1.6.0.41.x86_64/jre/lib/rt.jar]]] に対しては不明な javadoc フォーマットです]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:78)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:470)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:450)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:96)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:76)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:59)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-10-16 10:11:58.198
+!MESSAGE BufferedImageFilter [in BufferedImageFilter.class [in java.awt.image [in /usr/lib/jvm/java-1.6.0-openjdk-1.6.0.41.x86_64/jre/lib/rt.jar]]] に対しては不明な javadoc フォーマットです
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-10-16 10:11:58.354
+!MESSAGE 内部エラー
+!STACK 1
+Java Model Exception: Java Model Status [BufferedImageOp [in BufferedImageOp.class [in java.awt.image [in /usr/lib/jvm/java-1.6.0-openjdk-1.6.0.41.x86_64/jre/lib/rt.jar]]] に対しては不明な javadoc フォーマットです]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:78)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:470)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:450)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:96)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:76)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:59)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-10-16 10:11:58.355
+!MESSAGE BufferedImageOp [in BufferedImageOp.class [in java.awt.image [in /usr/lib/jvm/java-1.6.0-openjdk-1.6.0.41.x86_64/jre/lib/rt.jar]]] に対しては不明な javadoc フォーマットです
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-10-16 10:11:58.582
+!MESSAGE 内部エラー
+!STACK 1
+Java Model Exception: Java Model Status [BufferedInputStream [in BufferedInputStream.class [in java.io [in /usr/lib/jvm/java-1.6.0-openjdk-1.6.0.41.x86_64/jre/lib/rt.jar]]] に対しては不明な javadoc フォーマットです]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:78)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:470)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:450)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:96)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:76)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:59)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-10-16 10:11:58.582
+!MESSAGE BufferedInputStream [in BufferedInputStream.class [in java.io [in /usr/lib/jvm/java-1.6.0-openjdk-1.6.0.41.x86_64/jre/lib/rt.jar]]] に対しては不明な javadoc フォーマットです
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-10-16 10:11:58.750
+!MESSAGE 内部エラー
+!STACK 1
+Java Model Exception: Java Model Status [BufferedOutputStream [in BufferedOutputStream.class [in java.io [in /usr/lib/jvm/java-1.6.0-openjdk-1.6.0.41.x86_64/jre/lib/rt.jar]]] に対しては不明な javadoc フォーマットです]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:78)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:470)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:450)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:96)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:76)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:59)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-10-16 10:11:58.750
+!MESSAGE BufferedOutputStream [in BufferedOutputStream.class [in java.io [in /usr/lib/jvm/java-1.6.0-openjdk-1.6.0.41.x86_64/jre/lib/rt.jar]]] に対しては不明な javadoc フォーマットです
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-10-16 10:11:59.052
+!MESSAGE 内部エラー
+!STACK 1
+Java Model Exception: Java Model Status [BufferedReader [in BufferedReader.class [in java.io [in /usr/lib/jvm/java-1.6.0-openjdk-1.6.0.41.x86_64/jre/lib/rt.jar]]] に対しては不明な javadoc フォーマットです]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:78)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:470)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:450)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:96)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:76)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:59)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-10-16 10:11:59.053
+!MESSAGE BufferedReader [in BufferedReader.class [in java.io [in /usr/lib/jvm/java-1.6.0-openjdk-1.6.0.41.x86_64/jre/lib/rt.jar]]] に対しては不明な javadoc フォーマットです
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-10-16 10:12:18.299
+!MESSAGE 内部エラー
+!STACK 1
+Java Model Exception: Java Model Status [String [in String.class [in java.lang [in /usr/lib/jvm/java-1.6.0-openjdk-1.6.0.41.x86_64/jre/lib/rt.jar]]] に対しては不明な javadoc フォーマットです]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:78)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:470)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:450)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:96)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:76)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:59)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-10-16 10:12:18.300
+!MESSAGE String [in String.class [in java.lang [in /usr/lib/jvm/java-1.6.0-openjdk-1.6.0.41.x86_64/jre/lib/rt.jar]]] に対しては不明な javadoc フォーマットです
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-10-16 10:12:20.517
+!MESSAGE 内部エラー
+!STACK 1
+Java Model Exception: Java Model Status [StringTokenizer [in StringTokenizer.class [in java.util [in /usr/lib/jvm/java-1.6.0-openjdk-1.6.0.41.x86_64/jre/lib/rt.jar]]] に対しては不明な javadoc フォーマットです]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:78)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:470)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:450)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:96)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:76)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:59)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-10-16 10:12:20.517
+!MESSAGE StringTokenizer [in StringTokenizer.class [in java.util [in /usr/lib/jvm/java-1.6.0-openjdk-1.6.0.41.x86_64/jre/lib/rt.jar]]] に対しては不明な javadoc フォーマットです
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-10-16 10:17:57.075
+!MESSAGE 内部エラー
+!STACK 1
+Java Model Exception: Java Model Status [IOException [in IOException.class [in java.io [in /usr/lib/jvm/java-1.6.0-openjdk-1.6.0.41.x86_64/jre/lib/rt.jar]]] に対しては不明な javadoc フォーマットです]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:78)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:470)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:450)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:96)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:76)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:59)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-10-16 10:17:57.076
+!MESSAGE IOException [in IOException.class [in java.io [in /usr/lib/jvm/java-1.6.0-openjdk-1.6.0.41.x86_64/jre/lib/rt.jar]]] に対しては不明な javadoc フォーマットです
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-10-16 10:18:57.805
+!MESSAGE 内部エラー
+!STACK 1
+Java Model Exception: Java Model Status [Scanner [in Scanner.class [in java.util [in /usr/lib/jvm/java-1.6.0-openjdk-1.6.0.41.x86_64/jre/lib/rt.jar]]] に対しては不明な javadoc フォーマットです]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:78)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:470)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:450)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:96)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:76)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:59)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-10-16 10:18:57.806
+!MESSAGE Scanner [in Scanner.class [in java.util [in /usr/lib/jvm/java-1.6.0-openjdk-1.6.0.41.x86_64/jre/lib/rt.jar]]] に対しては不明な javadoc フォーマットです

@@ -1,0 +1,9 @@
+public class Polygon {
+	int hen;
+	public Polygon(int h){
+		hen = h;
+	}
+	public double area(){
+		return 0;
+	}
+}

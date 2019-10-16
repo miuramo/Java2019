@@ -1,0 +1,11 @@
+public class Square {
+	int hen;
+	public Square(int h){
+		hen = h;
+	}
+	public double area(){
+		return hen*hen;
+	}
+	}
+
+}
