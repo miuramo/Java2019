@@ -4,8 +4,13 @@ import java.util.ArrayList;
 
 // import java.util.ArrayList;
 
-public class HelloProgram {
+public class HelloProg {
 	public static void main(String[] args){
+		System.out.println(args.length);
+		for(int k=0; k< args.length; k++){
+			System.out.println(args[k]);
+		}
+		
 		System.out.println("Hello");
 		System.out.println(Onigiri.count);
 //		Onigiri ume, okaka, syake;
