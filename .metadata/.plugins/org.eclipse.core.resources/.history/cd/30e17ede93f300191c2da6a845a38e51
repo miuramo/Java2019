@@ -1,0 +1,15 @@
+package interfacetest;
+
+import javax.swing.JFrame;
+
+public class ButtonTest {
+
+	public static void main(String[] args) {
+		JFrame f = new JFrame("Test");
+		f.setSize(300,300);
+		f.setVisible(true);
+
+	}
+	
+
+}
