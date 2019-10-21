@@ -1,4 +1,4 @@
-ass Shape {
+class Shape {
   static int count = 100;
   int x, y, id;
   Shape(int _x, int _y){
