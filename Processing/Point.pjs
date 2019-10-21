@@ -1,0 +1,54 @@
+class Point {
+  int x, y;
+  Point(){
+    x = int( random( 0, width) );
+    y = int( random( 0, height) );
+  }
+  Point(int _x, int _y){
+    x = _x  ;  y = _y ;
+  }
+  void draw(){
+    fill(255);
+    ellipse(x, y, 10, 10);
+  }
+}
+class ColoredPoint extends Point {
+  int r, g, b;
+  ColoredPoint(int _r, int _g, int _b){
+    r = _r; g=_g; b=_b;
+  }
+  ColoredPoint(){
+    r = int( random(0,255) );
+    g = int( random(0,255) );
+    b = int( random(0,255) );
+  }
+  void draw(){
+    fill(r,g,b);
+    ellipse(x, y, 10, 10);
+  }
+  
+}
+ArrayList<Point> pts;
+void setup(){
+  size(300,300); // キャンバスの幅と高さ
+  pts = new ArrayList<Point>();
+}
+void draw(){ // キャンバスは左上が原点で、下方向が+Y、右方向が+X
+  for ( int k=0 ; k<pts.size() ; k++ ) {
+    Point tmp = pts.get(k);
+    tmp.draw();
+  }
+}
+
+void mousePressed(){
+  mp3("action01/kick1");
+  pts.add(  new ColoredPoint()   );
+  if (mouseButton == RIGHT){
+    pts.add(  new Point( mouseX, mouseY ) );
+  }
+}
+
+void keyPressed(){
+  pts = new ArrayList<Point>();
+  mp3("game01/jump12");
+}
