@@ -1,0 +1,66 @@
+ass Shape {
+  static int count = 100;
+  int x, y, id;
+  Shape(int _x, int _y){
+    this();
+    x = _x; y = _y; 
+  }
+  Shape(){
+    x = int( random(0,100) );
+    y = int( random(0,100) );
+    id = count; count++;
+  }
+  void draw(){
+    fill(0,255,0); textSize(20);
+    text(id,x+40,y);
+  }
+}
+
+class Circle extends Shape {
+  int r;
+  Circle(int _x, int _y, int _r){
+    //    super(_x, _y);
+    r = _r;
+  }
+  void draw(){
+    fill(255); ellipse(x,y,r,r);
+    super.draw(); 
+  }
+}
+
+class Square extends Shape {
+  int d;
+  Square(int _x, int _y, int _d){
+    super(_x, _y);
+    d = _d;
+  }
+  void draw(){
+    fill(255); rect(x,y,d, d);
+    super.draw();
+  }
+}
+
+ArrayList<Shape> shapes;
+void setup(){
+  size(300,500);
+  shapes = new ArrayList<Shape>();
+  shapes.add( new Circle(30, 30, 50) );
+  shapes.add( new Square(50, 50, 30) );
+}
+void draw(){
+  for ( int k=0 ; k<shapes.size();  k++ ) {
+    Shape s = shapes.get(k);
+    s.draw();
+  }
+}
+void mousePressed(){
+  if (mouseButton == LEFT){
+    shapes.add( new Circle(mouseX,mouseY,30));
+    mp3("game01/jump12");
+  } else {
+    shapes.add( new Square(mouseX,mouseY,50));
+    mp3("action01/laser02");
+  }
+}
+
+
