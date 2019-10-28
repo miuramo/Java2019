@@ -41,10 +41,12 @@ public class ResizeButtonTest implements ActionListener {
 	@Override
 	public void actionPerformed(ActionEvent arg0) {
 		for(JButton jb: btns){
-			System.out.println(jb.getText());
+			System.out.print(jb.getClass().getName()+" "+jb.getText()+"  ");
 			if (jb instanceof ResizeButton){
 				ResizeButton rb = (ResizeButton)jb;
 				System.out.println(rb.width+" "+rb.height);
+			} else {
+				System.out.println("");
 			}
 		}
 	}
