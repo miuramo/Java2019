@@ -9,7 +9,7 @@ public class TemplateMethodTest {
 }
 
 abstract class Life {
-	public void live(){
+	final public void live(){
 		born(); study(); work(); die();
 	}
 	abstract void born();
@@ -19,6 +19,8 @@ abstract class Life {
 }
 
 class MyLife extends Life {
+//	public void live(){		
+//	}
 	@Override
 	void born() {
 		System.out.println("xxでうまれる");
