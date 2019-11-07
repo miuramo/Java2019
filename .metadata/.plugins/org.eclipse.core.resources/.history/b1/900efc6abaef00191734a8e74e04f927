@@ -1,8 +1,0 @@
-public class Square {
-	public Square(int h){
-		super(h);
-	}
-	public double area(){
-		return hen*hen;
-	}
-}

@@ -638,3 +638,162 @@ Java Model Exception: Java Model Status [JButton [in JButton.class [in javax.swi
 	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
 !SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-10-28 11:12:59.761
 !MESSAGE JButton [in JButton.class [in javax.swing [in /usr/lib/jvm/java-1.6.0-openjdk-1.6.0.41.x86_64/jre/lib/rt.jar]]] に対しては不明な javadoc フォーマットです
+!SESSION 2019-11-07 08:44:08.842 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.6.0_41
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=ja_JP
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-11-07 08:45:53.605
+!MESSAGE The Java indexing could not index /Test001/src/Windows/src/AbstractFactory/Sample/factory/Factory.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-11-07 08:45:53.924
+!MESSAGE The Java indexing could not index /Test001/src/Windows/src/AbstractFactory/Sample/factory/Page.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-11-07 08:45:54.446
+!MESSAGE The Java indexing could not index /Test001/src/Windows/src/AbstractFactory/Sample/listfactory/ListLink.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-11-07 08:45:54.552
+!MESSAGE The Java indexing could not index /Test001/src/Windows/src/AbstractFactory/Sample/listfactory/ListPage.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-11-07 08:45:54.659
+!MESSAGE The Java indexing could not index /Test001/src/Windows/src/AbstractFactory/Sample/listfactory/ListTray.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-11-07 08:45:55.072
+!MESSAGE The Java indexing could not index /Test001/src/Windows/src/AbstractFactory/Sample/tablefactory/TableLink.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-11-07 08:45:55.177
+!MESSAGE The Java indexing could not index /Test001/src/Windows/src/AbstractFactory/Sample/tablefactory/TablePage.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-11-07 08:45:55.284
+!MESSAGE The Java indexing could not index /Test001/src/Windows/src/AbstractFactory/Sample/tablefactory/TableTray.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-11-07 08:45:55.390
+!MESSAGE The Java indexing could not index /Test001/src/Windows/src/AbstractFactory/Sample/factory/Factory.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-11-07 08:45:55.545
+!MESSAGE The Java indexing could not index /Test001/src/Windows/src/AbstractFactory/Sample/factory/Page.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-11-07 08:45:55.752
+!MESSAGE The Java indexing could not index /Test001/src/Windows/src/AbstractFactory/Sample/tablefactory/TableLink.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-11-07 08:45:55.804
+!MESSAGE The Java indexing could not index /Test001/src/Windows/src/AbstractFactory/Sample/listfactory/ListLink.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-11-07 08:45:55.857
+!MESSAGE The Java indexing could not index /Test001/src/Windows/src/AbstractFactory/Sample/tablefactory/TablePage.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-11-07 08:45:55.908
+!MESSAGE The Java indexing could not index /Test001/src/Windows/src/AbstractFactory/Sample/listfactory/ListPage.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-11-07 08:45:55.960
+!MESSAGE The Java indexing could not index /Test001/src/Windows/src/AbstractFactory/Sample/tablefactory/TableTray.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-11-07 08:45:56.012
+!MESSAGE The Java indexing could not index /Test001/src/Windows/src/AbstractFactory/Sample/listfactory/ListTray.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-11-07 08:48:56.247
+!MESSAGE The Java indexing could not index /DPBook/src/AbstractFactory/Sample/factory/Factory.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-11-07 08:48:56.556
+!MESSAGE The Java indexing could not index /DPBook/src/AbstractFactory/Sample/factory/Page.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-11-07 08:48:57.076
+!MESSAGE The Java indexing could not index /DPBook/src/AbstractFactory/Sample/listfactory/ListLink.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-11-07 08:48:57.181
+!MESSAGE The Java indexing could not index /DPBook/src/AbstractFactory/Sample/listfactory/ListPage.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-11-07 08:48:57.286
+!MESSAGE The Java indexing could not index /DPBook/src/AbstractFactory/Sample/listfactory/ListTray.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-11-07 08:48:57.702
+!MESSAGE The Java indexing could not index /DPBook/src/AbstractFactory/Sample/tablefactory/TableLink.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-11-07 08:48:57.807
+!MESSAGE The Java indexing could not index /DPBook/src/AbstractFactory/Sample/tablefactory/TablePage.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-11-07 08:48:57.912
+!MESSAGE The Java indexing could not index /DPBook/src/AbstractFactory/Sample/tablefactory/TableTray.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-11-07 08:48:58.069
+!MESSAGE The Java indexing could not index /DPBook/src/AbstractFactory/Sample/listfactory/ListLink.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-11-07 08:48:58.122
+!MESSAGE The Java indexing could not index /DPBook/src/AbstractFactory/Sample/tablefactory/TableTray.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-11-07 08:48:58.174
+!MESSAGE The Java indexing could not index /DPBook/src/AbstractFactory/Sample/listfactory/ListPage.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-11-07 08:48:58.227
+!MESSAGE The Java indexing could not index /DPBook/src/AbstractFactory/Sample/listfactory/ListTray.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-11-07 08:48:58.280
+!MESSAGE The Java indexing could not index /DPBook/src/AbstractFactory/Sample/factory/Factory.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-11-07 08:48:58.435
+!MESSAGE The Java indexing could not index /DPBook/src/AbstractFactory/Sample/factory/Page.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-11-07 08:48:58.590
+!MESSAGE The Java indexing could not index /DPBook/src/AbstractFactory/Sample/tablefactory/TableLink.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+
+!ENTRY org.eclipse.jdt.core 2 0 2019-11-07 08:48:58.695
+!MESSAGE The Java indexing could not index /DPBook/src/AbstractFactory/Sample/tablefactory/TablePage.class. This .class file doesn't follow the class file format specification. Please report this issue against the .class file vendor
+!SESSION 2019-11-07 09:54:20.245 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.6.0_41
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=ja_JP
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-11-07 09:56:18.210
+!MESSAGE 内部エラー
+!STACK 1
+Java Model Exception: Java Model Status [Desktop [in Desktop.class [in java.awt [in /usr/lib/jvm/java-1.6.0-openjdk-1.6.0.41.x86_64/jre/lib/rt.jar]]] に対しては不明な javadoc フォーマットです]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:78)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:470)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:450)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:96)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:76)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:59)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-11-07 09:56:18.212
+!MESSAGE Desktop [in Desktop.class [in java.awt [in /usr/lib/jvm/java-1.6.0-openjdk-1.6.0.41.x86_64/jre/lib/rt.jar]]] に対しては不明な javadoc フォーマットです
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-11-07 09:56:18.409
+!MESSAGE 内部エラー
+!STACK 1
+Java Model Exception: Java Model Status [DesktopIconUI [in DesktopIconUI.class [in javax.swing.plaf [in /usr/lib/jvm/java-1.6.0-openjdk-1.6.0.41.x86_64/jre/lib/rt.jar]]] に対しては不明な javadoc フォーマットです]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:78)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:470)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:450)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:96)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:76)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:59)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-11-07 09:56:18.410
+!MESSAGE DesktopIconUI [in DesktopIconUI.class [in javax.swing.plaf [in /usr/lib/jvm/java-1.6.0-openjdk-1.6.0.41.x86_64/jre/lib/rt.jar]]] に対しては不明な javadoc フォーマットです
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-11-07 09:56:27.445
+!MESSAGE 内部エラー
+!STACK 1
+Java Model Exception: Java Model Status [Desktop [in Desktop.class [in java.awt [in /usr/lib/jvm/java-1.6.0-openjdk-1.6.0.41.x86_64/jre/lib/rt.jar]]] に対しては不明な javadoc フォーマットです]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:78)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:470)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:450)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:96)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:76)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:59)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:555)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-11-07 09:56:27.445
+!MESSAGE Desktop [in Desktop.class [in java.awt [in /usr/lib/jvm/java-1.6.0-openjdk-1.6.0.41.x86_64/jre/lib/rt.jar]]] に対しては不明な javadoc フォーマットです
