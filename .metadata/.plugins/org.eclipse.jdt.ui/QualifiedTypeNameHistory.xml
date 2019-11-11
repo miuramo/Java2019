@@ -16,4 +16,8 @@
 <fullyQualifiedTypeName name="ResizeButtonTest"/>
 <fullyQualifiedTypeName name="java.awt.Component"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.awt.Desktop"/>
+<fullyQualifiedTypeName name="java.net.URI"/>
+<fullyQualifiedTypeName name="mmm.MySetting"/>
+<fullyQualifiedTypeName name="java.util.Calendar"/>
 </qualifiedTypeNameHistroy>
