@@ -1252,3 +1252,99 @@ Java Model Exception: Java Model Status [JOptionPane [in JOptionPane.class [in j
 	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
 !SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-11-11 09:55:03.676
 !MESSAGE JOptionPane [in JOptionPane.class [in javax.swing [in /usr/lib/jvm/java-1.6.0-openjdk-1.6.0.41.x86_64/jre/lib/rt.jar]]] に対しては不明な javadoc フォーマットです
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-11-11 10:36:11.843
+!MESSAGE 内部エラー
+!STACK 1
+Java Model Exception: Java Model Status [Calendar {key=Ljava/util/Calendar;} [in Calendar.class [in java.util [in /usr/lib/jvm/java-1.6.0-openjdk-1.6.0.41.x86_64/jre/lib/rt.jar]]] に対しては不明な javadoc フォーマットです]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:78)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:470)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:609)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:555)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:547)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:141)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:82)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-11-11 10:36:11.843
+!MESSAGE Calendar {key=Ljava/util/Calendar;} [in Calendar.class [in java.util [in /usr/lib/jvm/java-1.6.0-openjdk-1.6.0.41.x86_64/jre/lib/rt.jar]]] に対しては不明な javadoc フォーマットです
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-11-11 10:44:16.648
+!MESSAGE 内部エラー
+!STACK 1
+Java Model Exception: Java Model Status [System [in System.class [in java.lang [in /usr/lib/jvm/java-1.6.0-openjdk-1.6.0.41.x86_64/jre/lib/rt.jar]]] に対しては不明な javadoc フォーマットです]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:78)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:470)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:609)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:555)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:547)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:141)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:82)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-11-11 10:44:16.648
+!MESSAGE System [in System.class [in java.lang [in /usr/lib/jvm/java-1.6.0-openjdk-1.6.0.41.x86_64/jre/lib/rt.jar]]] に対しては不明な javadoc フォーマットです
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-11-11 10:44:35.075
+!MESSAGE 内部エラー
+!STACK 1
+Java Model Exception: Java Model Status [System [in System.class [in java.lang [in /usr/lib/jvm/java-1.6.0-openjdk-1.6.0.41.x86_64/jre/lib/rt.jar]]] に対しては不明な javadoc フォーマットです]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:78)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:470)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:609)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:555)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:547)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:141)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:82)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-11-11 10:44:35.075
+!MESSAGE System [in System.class [in java.lang [in /usr/lib/jvm/java-1.6.0-openjdk-1.6.0.41.x86_64/jre/lib/rt.jar]]] に対しては不明な javadoc フォーマットです
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-11-11 11:33:01.877
+!MESSAGE 内部エラー
+!STACK 1
+Java Model Exception: Java Model Status [String [in String.class [in java.lang [in /usr/lib/jvm/java-1.6.0-openjdk-1.6.0.41.x86_64/jre/lib/rt.jar]]] に対しては不明な javadoc フォーマットです]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:78)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:470)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:609)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:555)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:547)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:141)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:82)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-11-11 11:33:01.877
+!MESSAGE String [in String.class [in java.lang [in /usr/lib/jvm/java-1.6.0-openjdk-1.6.0.41.x86_64/jre/lib/rt.jar]]] に対しては不明な javadoc フォーマットです
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-11-11 11:33:39.234
+!MESSAGE 内部エラー
+!STACK 1
+Java Model Exception: Java Model Status [String [in String.class [in java.lang [in /usr/lib/jvm/java-1.6.0-openjdk-1.6.0.41.x86_64/jre/lib/rt.jar]]] に対しては不明な javadoc フォーマットです]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:78)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:470)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:609)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:555)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:547)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:141)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:82)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-11-11 11:33:39.234
+!MESSAGE String [in String.class [in java.lang [in /usr/lib/jvm/java-1.6.0-openjdk-1.6.0.41.x86_64/jre/lib/rt.jar]]] に対しては不明な javadoc フォーマットです
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-11-11 11:35:04.115
+!MESSAGE 内部エラー
+!STACK 1
+Java Model Exception: Java Model Status [System [in System.class [in java.lang [in /usr/lib/jvm/java-1.6.0-openjdk-1.6.0.41.x86_64/jre/lib/rt.jar]]] に対しては不明な javadoc フォーマットです]
+	at org.eclipse.jdt.internal.core.JavadocContents.getTypeDoc(JavadocContents.java:78)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:997)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:470)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:609)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:555)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:547)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:141)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:82)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.core 4 1009 2019-11-11 11:35:04.115
+!MESSAGE System [in System.class [in java.lang [in /usr/lib/jvm/java-1.6.0-openjdk-1.6.0.41.x86_64/jre/lib/rt.jar]]] に対しては不明な javadoc フォーマットです
