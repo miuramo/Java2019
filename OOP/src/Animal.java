@@ -5,23 +5,23 @@ public class Animal {
 	}
 	void eat(){
 	}
-	void cry(){		
+	void bark(){		
 	}
 	public static void main(String[] args){
 		Animal d = new Dog();
 		Animal c = new Cat();
-		d.cry();
-		c.cry();
+		d.bark();
+		c.bark();
 	}
 }
 class Dog extends Animal {
-	void cry(){
+	void bark(){
 //		sysout ALT+/  auto-complete
 		System.out.println("wan-wan");
 	}
 }
 class Cat extends Animal {
-	void cry(){
+	void bark(){
 		System.out.println("miao");
 	}
 }
